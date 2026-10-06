@@ -1,0 +1,12 @@
+
+:root{--bg:#0a0a0b;--card:#141416;--text:#f7f1e7;--muted:#b8b0a3;--accent:#ff9b3d;--line:#29292d}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;line-height:1.6}
+main{max-width:880px;margin:auto;padding:64px 24px 90px} nav{display:flex;gap:18px;flex-wrap:wrap;margin-bottom:54px}
+a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+h1{font-size:clamp(42px,8vw,82px);line-height:.95;margin:0 0 22px;letter-spacing:-.04em}
+h2{margin-top:42px;font-size:28px} .eyebrow{font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent)}
+.lead{font-size:21px;color:var(--muted);max-width:720px}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px;margin:24px 0}
+footer{margin-top:64px;padding-top:28px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+ul{padding-left:22px}
+
+.brand-logo{width:160px;height:160px;object-fit:contain;display:block;margin:0 0 28px}
